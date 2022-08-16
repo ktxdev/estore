@@ -1,5 +1,6 @@
 from pydantic import BaseModel
-from category.schemas import Category
+
+from schemas.category import Category
 
 
 class ProductBase(BaseModel):
